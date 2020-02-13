@@ -15,7 +15,7 @@ application.yaml内で `example.foo.bar` の値に `${BOS_TEST}` という変数
 
 ## 実行
 
-以下のコマンドを実行するとログに `example.foo.bar=` の行に `BOS_TEST` の値が表示されます。
+以下のコマンドを実行するとログで `example.foo.bar=` の行に `BOS_TEST` の値が出力されます。
 
 ```
 # 環境変数
