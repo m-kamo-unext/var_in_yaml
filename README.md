@@ -25,5 +25,5 @@ BOS_TEST=envvar java -jar build/libs/var_in_yaml-0.0.1-SNAPSHOT.jar
 java -DBOS_TEST=sysprop -jar build/libs/var_in_yaml-0.0.1-SNAPSHOT.jar
 
 # Spring Bootコマンドライン引数
-java -jar build/libs/var_in_yaml-0.0.1-SNAPSHOT.jar --BOS_TEST=commandline
+java -jar build/libs/var_in_yaml-0.0.1-SNAPSHOT.jar --BOS_TEST=clarg
 ```
