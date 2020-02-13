@@ -1,6 +1,7 @@
 # var in yaml
 
 Spring Bootアプリケーションのapplication.yaml内の変数の確認用プロジェクトです。
+
 application.yaml内で `example.foo.bar` の値に `${BOS_TEST}` という変数を指定しています。
 環境変数，システムプロパティ，Spring Bootコマンドライン引数のどれでも ${BOS_TEST} で取得できることが確認できます。
 
